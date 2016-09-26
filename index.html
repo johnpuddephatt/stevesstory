@@ -4,8 +4,12 @@ layout: default
 
 
 <!-- Main -->
-<div id="main">
+    <h1 class="site-title">{{ site.title }}</h1>
+    <h2 class="site-description">{{ site.description }}</h2>
+    <a class="button" href="about.html">Read Steve’s Story</a>
+    <a class="button" href="https://www.youcaring.com/steve-mcgrath-651237">Donate now</a>
     <section>
+        <h2 class="section-title">Latest updates</h2>
         {% for post in site.posts limit:1 %}
             <header class="major">
                 <h2>{{ post.title }}</h2>
@@ -16,8 +20,6 @@ layout: default
                 {{ post.content }}
             </section>
         {% endfor %}
-    </section>
-    <section>
         <div class="row">
             {% for post in site.posts offset:1 %}
 
@@ -38,4 +40,3 @@ layout: default
             {% endfor %}
         </div>
     </section>
-</div>
