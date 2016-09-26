@@ -1,7 +1,8 @@
 ---
-layout: post
 title: Hear Steve’s Story
+layout: post
 ---
+
 Everyone has a story to tell, this is Steve’s Story.
 
 - Family man

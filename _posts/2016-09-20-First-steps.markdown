@@ -1,6 +1,9 @@
 ---
+title: First Steps
+date: 2016-09-20 00:00:00 Z
 layout: post
 ---
+
 Well where do I begin!
 
 Just over a week ago the fundraising started and I cannot believe the response, I am absolutely overwhelmed by people's generosity, not only donating financially but also the time people are giving up to support me and spread the word.
