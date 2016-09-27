@@ -46,8 +46,8 @@ layout: default
             </section>
         {% endfor %}
         <div class="row">
+        <br />
             {% for post in site.posts offset:1 %}
-              <br />
               <article class="{% cycle '6u', '6u$' %} 12u(small)">
                   <header>
                       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
