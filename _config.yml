@@ -5,11 +5,11 @@ collections:
   events:
     title: Events
     output: true
-  something:
-    title: Something
-    output: true
   posts:
     title: Posts
+    output: true
+  something:
+    title: Something
     output: true
   uploads:
     title: Uploads
