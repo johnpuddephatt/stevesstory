@@ -5,8 +5,31 @@ layout: default
 <!-- Main -->
     <h1 class="site-title">{{ site.title }}</h1>
     <h2 class="site-description">{{ site.description }}</h2>
-    <a class="button" href="about.html">Read Steve’s Story</a>
+    <a class="button" href="about.html">Hear Steve’s Story</a>
     <a class="button" href="https://www.youcaring.com/steve-mcgrath-651237">Donate now</a>
+    <section>
+      <h2 class="section-title">Upcoming events</h2>
+
+      <div class="row">
+          {% for event in site.events limit:2 %}
+              <article class="{% cycle '6u', '6u$' %} 12u(small)">
+                  <header>
+                      <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
+                  </header>
+                  <section>
+                      {{ event.excerpt }}
+                  </section>
+                  <footer>
+                      <ul class="actions">
+                          <li><a href="{{ event.url }}" class="button">Read More</a></li>
+                      </ul>
+                  </footer>
+              </article>
+
+          {% endfor %}
+      </div>
+    </section>
+    </section>
     <section>
         <h2 class="section-title">Latest updates</h2>
         {% for post in site.posts limit:1 %}
