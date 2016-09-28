@@ -24,7 +24,7 @@ email: asdf@domain.com
 description: |
   Family man and loyal friend Steve lived an active life until being diagnosed with Primary Progressive Multiple Sclerosis at the age of 50.
   Now he's attempting to raise £50,000 for a pioneering treatment to stop the MS in its tracks.
-baseurl: ''
+baseurl: 
 url: http://stevesstory.co.uk
 twitter_username: example
 facebook_username: example
