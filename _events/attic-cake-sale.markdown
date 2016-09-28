@@ -1,7 +1,7 @@
 ---
 title: Attic / Cake Sale
 date: 2016-12-14 22:14:00 Z
-image: "/uploads/run.jpg"
+image: "/uploads/St_Barnabas_village_centre,_Bromborough.JPG"
 ---
 
 St Barnabus Village Hall.
