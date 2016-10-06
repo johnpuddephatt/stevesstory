@@ -1,5 +1,5 @@
 ---
-title: Pre-Launch PartyUpdate
+title: Pre-Launch Party Update
 date: 2016-10-06 19:16:00 Z
 ---
 
