@@ -1,10 +1,8 @@
 ---
 title: Mexican Themed Christmas Party
-date: 2016-12-02 15:50:00 Z
+date: 2016-12-02 19:30:00 Z
 Field name: 
 ---
-
-[](http://www.wirralrugbyclub.com)
 
 at Wirralians Rugby Club.
 
