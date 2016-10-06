@@ -1,7 +1,7 @@
 ---
 title: Fundraising Launch Event
 date: 2016-10-07 19:30:00 Z
-position: 1
+position: 2
 image: "/uploads/f76463bccf64456193d4c886f7a9cf49.jpg"
 ---
 
