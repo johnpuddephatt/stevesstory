@@ -1,12 +1,12 @@
 ---
 title: Mexican Themed Christmas Party
-date: 2016-10-06 15:50:00 Z
+date: 2016-12-02 15:50:00 Z
 Field name: 
 ---
 
 [](http://www.wirralrugbyclub.com)
 
-Friday 2nd December at Wirralians Rugby Club.
+at Wirralians Rugby Club.
 
 Tickets £10 a head
 
