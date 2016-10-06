@@ -11,9 +11,6 @@ collections:
   something:
     title: Something
     output: true
-  thank-you-to-all-our-supporters:
-    title: Thank You to all our Supporters
-    output: true
   uploads:
     title: Uploads
     output: true
