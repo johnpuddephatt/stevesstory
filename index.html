@@ -11,27 +11,34 @@ layout: default
       <h2 class="section-title">Upcoming events</h2>
 
       <div class="row">
-          {% for event in site.events limit:2 %}
+          {% for event in site.events limit:4 %}
               <article class="{% cycle '6u', '6u$' %} 12u(small)">
                 <a class="image fit thumb" href="{{ event.url }}">
                   <img src="{{ event.image }}" alt="">
                 </a>
+                <p clas="date">                
+                  {% assign d = event.date | date: "%-d"  %}
+                  {% case d %}
+                    {% when '1' or '21' or '31' %}{{ d }}st
+                    {% when '2' or '22' %}{{ d }}nd
+                    {% when '3' or '23' %}{{ d }}rd
+                    {% else %}{{ d }}th
+                    {% endcase %}
+                  {{ event.date | date: "%b" }}
+                  {{ event.date | date: "%Y" }}
+                </p>
                   <header>
                       <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
                   </header>
                   <section>
                       {{ event.excerpt }}
                   </section>
-                  <footer>
-                      <ul class="actions">
-                          <li><a href="{{ event.url }}" class="button">Read More</a></li>
-                      </ul>
-                  </footer>
               </article>
 
           {% endfor %}
       </div>
-    </section>
+      <br />
+      <a class="button fit" href="events.html">View all events</a>
     </section>
     <section>
         <h2 class="section-title">Steve’s Updates</h2>
@@ -64,4 +71,15 @@ layout: default
 
             {% endfor %}
         </div>
+    </section>
+    <section>
+      <h2 class="section-title">Our supporters</h2>
+      <p>We would like to thank the following companies for their generosity and support towards Steve’s Story Fundraising Campaign.</p>
+      <div class="row">
+          {% for supporter in site.supporter_list %}
+            <div class="{% cycle '6u', '6u$' %} cc 12u(small)">
+              {{ supporter }}
+            </div>
+          {% endfor %}
+      </div>
     </section>

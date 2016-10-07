@@ -434,9 +434,10 @@ $size-header-pad:		4em;
 
 /* Image */
 
-	.image {
+	.image, section img {
 		border-radius: $size-border-radius;
 		border: 0;
+		max-width: 100%;
 		display: inline-block;
 		position: relative;
 
