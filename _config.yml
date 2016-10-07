@@ -10,7 +10,7 @@ collections:
     output: true
   supporters:
     title: Supporters
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
