@@ -4,7 +4,7 @@ date: 2016-12-09 15:15:00 Z
 Image: "/uploads/fair.png"
 ---
 
-Friday 9th December
+Friday 9th December.
 
 Rock Ferry Primary School
 
