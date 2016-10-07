@@ -1,7 +1,7 @@
 ---
 title: Attic / Cake Sale
 date: 2016-09-20 00:00:00 Z
-position: 1
+position: 3
 image: "/uploads/St_Barnabas_village_centre,_Bromborough.JPG"
 ---
 

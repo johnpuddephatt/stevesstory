@@ -1,6 +1,7 @@
 ---
 title: Christmas Fair
 date: 2016-12-09 15:15:00 Z
+position: 0
 Image: "/uploads/fair.png"
 ---
 
