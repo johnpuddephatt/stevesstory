@@ -3,7 +3,7 @@ title: Launch Event Update
 date: 2016-10-08 09:44:00 Z
 ---
 
-A massive thank you to all who came along and supported our launch event at Port Sunlight Rugby Club,  everybody had a great night and we raised the magnificent sum of £2,200.
+A massive thank you to all those who came along and supported our launch event at Port Sunlight Rugby Club.  Everybody had a great night and we raised the magnificent sum of £2,200!!
 
 To build on this our pamper package raffle runs for another week, by donating £3 to Steve's You Caring page and putting pamper package in your message you'll be entered in the draw, which takes place on Saturday 15th October, good luck.
 
