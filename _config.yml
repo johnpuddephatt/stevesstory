@@ -8,11 +8,6 @@ collections:
   posts:
     title: Posts
     output: true
-  supporters:
-    title: Supporters
-    output: false
-    Supporter name:
-    - test
   uploads:
     title: Uploads
     output: true
