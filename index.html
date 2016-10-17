@@ -3,6 +3,10 @@ layout: default
 ---
 
 <!-- Main -->
+<ul class="social">
+  <li><a href="https://www.facebook.com/profile.php?id=100013470858314&fref=ts" class="icon-10 facebook" title="Facebook"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"/></svg><!--[if lt IE 9]><em>Facebook</em><![endif]--></a></li>
+  <li><a href="mailto:stevesstory2016@gmail.com" class="icon-8 email" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg><!--[if lt IE 9]><em>Email</em><![endif]--></a></li>
+</ul>
     <h1 class="site-title">{{ site.title }}</h1>
     <h2 class="site-description">{{ site.description }}</h2>
     <a class="button" href="about.html">Hear Steve’s Story</a>
@@ -16,7 +20,7 @@ layout: default
                 <a class="image fit thumb" href="{{ event.url }}">
                   <img src="{{ event.image }}" alt="">
                 </a>
-                <p clas="date">                
+                <p clas="date">
                   {% assign d = event.date | date: "%-d"  %}
                   {% case d %}
                     {% when '1' or '21' or '31' %}{{ d }}st
@@ -55,7 +59,7 @@ layout: default
         <div class="row">
         <br />
             {% for post in site.posts offset:1 %}
-              <article class="{% cycle '6u', '6u$' %} 12u(small)">
+              <article class="{% cycle '6u$', '6u' %} 12u(small)">
                   <header>
                       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                   </header>
@@ -76,7 +80,8 @@ layout: default
       <h2 class="section-title">Our supporters</h2>
       <p>We would like to thank the following companies for their generosity and support towards Steve’s Story Fundraising Campaign.</p>
       <div class="row">
-          {% for supporter in site.supporter_list %}
+          {% assign supporters = site.supporter_list | sort:"value" %}
+          {% for supporter in supporters %}
             <div class="{% cycle '6u', '6u$' %} cc 12u(small)">
               {{ supporter }}
             </div>

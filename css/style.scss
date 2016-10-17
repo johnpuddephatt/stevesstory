@@ -39,6 +39,26 @@ $size-header-pad:		4em;
 	font-size: 4em;
 }
 
+.social {
+	position: absolute;
+	right: 3rem;
+	top: 3rem;
+	a {
+		border-bottom: none;
+
+	}
+	li {
+		float: left;
+		list-style-type: none;
+	}
+	svg {
+		width: 2rem;
+		height: 2rem;
+		border: 2px solid black;
+		border-radius: 50%;
+	}
+}
+
 /* Basic */
 
 	body {
