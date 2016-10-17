@@ -6,4 +6,4 @@ image: "/uploads/Photo%20from%20John%20Puddephatt.jpg"
 
 £5 per ticket – donate on our [Just Caring crowdfunding page](https://www.youcaring.com/steve-mcgrath-651237) and mention "LFC shirt raffle" in your comment. Donate multiples of £5 (£10, £15, etc.) for multiple tickets.
 
-<a class="button" href="https://www.youcaring.com/steve-mcgrath-651237">Donate now</a>
+<a class="button" href="https://www.youcaring.com/steve-mcgrath-651237">Donate to enter now</a>
