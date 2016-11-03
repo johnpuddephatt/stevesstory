@@ -11,4 +11,4 @@ They will be starting at Birkenhead Ferry Port at 7:00 a.m. in festive fancy dre
 
 Hope you can join in to help Steve reach his target!
 
-[](http://justgiving.com/crowdfunding/strollforsteve)
+[](http://www.justgiving.com/crowdfunding/strollforsteve)
