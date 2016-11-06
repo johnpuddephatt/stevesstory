@@ -1,6 +1,6 @@
 ---
 title: Rupert the Bear Head Shave
-date: 2016-10-22 14:38:00 Z
+date: 2016-11-25 18:00:00 Z
 image: "/uploads/rupert.jpg"
 ---
 
