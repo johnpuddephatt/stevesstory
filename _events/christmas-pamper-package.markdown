@@ -1,6 +1,7 @@
 ---
 title: Christmas Pamper Package
 date: 2016-11-06 09:08:00 Z
+image: "/uploads/xmaspamper.jpg"
 ---
 
 Loads of fabulous prizes to be won!
