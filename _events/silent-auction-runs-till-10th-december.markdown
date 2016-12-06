@@ -1,7 +1,10 @@
 ---
-title: Silent Auction - runs till 10th December
+title: Silent Auction
 date: 2016-12-02 08:10:00 Z
+image: "/uploads/silentauction.jpg"
 ---
+
+**Runs until 10th December**
 
 Why not grab yourself a cheeky treat or bag some Christmas presents whilst helping a good cause.
 
