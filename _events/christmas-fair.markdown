@@ -5,9 +5,7 @@ position: 0
 image: "/uploads/fair.png"
 ---
 
-Friday 9th December.
-
-Rock Ferry Primary School
+Hosted by Rock Ferry Primary School
 
 * Tombola
 
