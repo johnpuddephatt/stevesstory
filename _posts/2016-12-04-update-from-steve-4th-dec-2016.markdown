@@ -1,5 +1,5 @@
 ---
-title: Update from Steve - 4th Dec 2016
+title: Update from Steve
 date: 2016-12-04 18:41:00 Z
 ---
 
