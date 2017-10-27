@@ -8,9 +8,6 @@ collections:
   posts:
     title: Posts
     output: true
-  update-from-steve-18th-april-2017:
-    title: Update from Steve 18th April 2017
-    output: true
   uploads:
     title: Uploads
     output: true
